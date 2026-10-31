@@ -44,7 +44,7 @@ const Home = () => {
         <div className="px-12 py-10 flex flex-col items-center">
           <div>
             {loading ? (
-              <div className="h-[350px] flex flex-col justify-center items-center gap-3">
+              <div className="h-87.5 flex flex-col justify-center items-center gap-3">
                 <div className="w-10 h-10 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
                 <p className="text-gray-500 text-sm">Loading tasks...</p>
               </div>
